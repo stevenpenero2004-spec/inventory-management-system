@@ -4,7 +4,7 @@ services:
     name: inventory-backend
     env: node
     buildCommand: npm install
-    buildPath: backend/
+    rootDir: backend
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://stevenpenero21:tosh123@cluster0.d7pjzci.mongodb.net/
@@ -15,11 +15,10 @@ services:
     plan: free
 
   # Frontend Service
-  - type: web
+  - type: static
     name: inventory-frontend
-    env: static
     buildCommand: npm install && npm run build
-    staticPath: frontend/dist
+    publish: frontend/dist
     envVars:
       - key: VITE_API_URL
         fromService:
