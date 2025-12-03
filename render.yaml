@@ -5,6 +5,7 @@ services:
     env: node
     buildCommand: npm install
     rootDir: backend
+    startCommand: npm start
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://stevenpenero21:tosh123@cluster0.d7pjzci.mongodb.net/
@@ -24,7 +25,8 @@ services:
       - key: VITE_API_URL
         fromService:
           name: inventory-backend
-          property: url
+          type: web
+          property: host
     routes:
       - type: rewrite
         source: '/*'
