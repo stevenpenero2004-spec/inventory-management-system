@@ -13,7 +13,6 @@ services:
         value: change_me_development_secret
       - key: JWT_EXPIRES
         value: 1h
-    plan: free
 
   # Frontend Service
   - type: web
@@ -31,4 +30,3 @@ services:
       - type: rewrite
         source: '/*'
         destination: '/index.html'
-    plan: free
