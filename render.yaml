@@ -15,10 +15,11 @@ services:
     plan: free
 
   # Frontend Service
-  - type: static
+  - type: web
     name: inventory-frontend
+    env: static
     buildCommand: npm install && npm run build
-    publish: frontend/dist
+    staticPublishPath: frontend/dist
     envVars:
       - key: VITE_API_URL
         fromService:
