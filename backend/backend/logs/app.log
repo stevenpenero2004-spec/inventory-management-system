@@ -1,0 +1,25 @@
+{"level":"error","message":"Database connection failed: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-11-26T10:27:34.234Z"}
+{"level":"warn","message":"Server running on port 5000 with DB connection error","timestamp":"2025-11-26T10:27:34.239Z"}
+{"level":"error","message":"GET /api/dashboard/summary 500 Operation `products.countDocuments()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:27:51.076Z"}
+{"level":"error","message":"GET /api/categories 500 Operation `categories.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:27:58.279Z"}
+{"level":"error","message":"GET /api/suppliers 500 Operation `suppliers.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:27:58.281Z"}
+{"level":"error","message":"GET /api/products?page=1&limit=10&q= 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:27:58.283Z"}
+{"level":"error","message":"GET /api/products?limit=100 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:03.029Z"}
+{"level":"error","message":"GET /api/stocks/history?page=1&limit=10 500 Operation `stocks.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:03.036Z"}
+{"level":"error","message":"GET /api/dashboard/summary 500 Operation `products.countDocuments()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:07.109Z"}
+{"level":"error","message":"GET /api/categories 500 Operation `categories.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:08.296Z"}
+{"level":"error","message":"GET /api/suppliers 500 Operation `suppliers.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:08.297Z"}
+{"level":"error","message":"GET /api/products?page=1&limit=10&q= 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:08.298Z"}
+{"level":"error","message":"GET /api/dashboard/summary 500 Operation `products.countDocuments()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:17.124Z"}
+{"level":"error","message":"GET /api/categories 500 Operation `categories.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:18.309Z"}
+{"level":"error","message":"GET /api/suppliers 500 Operation `suppliers.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:18.310Z"}
+{"level":"error","message":"GET /api/products?page=1&limit=10&q= 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:18.310Z"}
+{"level":"error","message":"GET /api/products?limit=100 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:20.018Z"}
+{"level":"error","message":"GET /api/stocks/history?page=1&limit=10 500 Operation `stocks.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:20.019Z"}
+{"level":"error","message":"GET /api/products?page=1&limit=10&q= 500 Operation `products.find()` buffering timed out after 10000ms","timestamp":"2025-11-26T10:28:25.561Z"}
+{"level":"error","message":"Database connection failed: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-11-26T10:32:18.204Z"}
+{"level":"warn","message":"Server running on port 5000 with DB connection error","timestamp":"2025-11-26T10:32:18.209Z"}
+{"level":"error","message":"Database connection failed: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-11-26T10:36:21.546Z"}
+{"level":"warn","message":"Server running on port 5000 with DB connection error","timestamp":"2025-11-26T10:36:21.550Z"}
+{"level":"error","message":"Database connection failed: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-11-26T10:43:33.677Z"}
+{"level":"warn","message":"Server running on port 5000 with DB connection error","timestamp":"2025-11-26T10:43:33.684Z"}
