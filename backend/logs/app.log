@@ -2784,3 +2784,7 @@
 {"level":"info","message":"GET /api/reports/demand-by-category?days=30","timestamp":"2025-12-03T08:58:48.705Z"}
 {"level":"info","message":"GET /api/dashboard/summary","timestamp":"2025-12-03T08:58:52.446Z"}
 {"level":"info","message":"GET /api/activity?days=30&page=1&limit=20","timestamp":"2025-12-03T08:58:57.959Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T09:18:43.679Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-12-03T09:18:43.687Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T09:18:49.517Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-12-03T09:18:49.524Z"}
