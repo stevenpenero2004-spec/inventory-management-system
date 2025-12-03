@@ -3,9 +3,8 @@ services:
   - type: web
     name: inventory-backend
     env: node
-    build:
-      command: npm install
-      publish: backend/
+    buildCommand: npm install
+    buildPath: backend/
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://stevenpenero21:tosh123@cluster0.d7pjzci.mongodb.net/
@@ -19,15 +18,13 @@ services:
   - type: web
     name: inventory-frontend
     env: static
-    build:
-      command: npm install && npm run build
-      publish: frontend/dist
+    buildCommand: npm install && npm run build
+    staticPath: frontend/dist
     envVars:
       - key: VITE_API_URL
         fromService:
           name: inventory-backend
           property: url
-          type: web
     routes:
       - type: rewrite
         source: '/*'
