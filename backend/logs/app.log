@@ -2792,3 +2792,5 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2025-12-04T19:33:05.893Z"}
 {"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-04T19:45:20.811Z"}
 {"level":"info","message":"GET /api/dashboard/summary","timestamp":"2025-12-04T19:45:21.151Z"}
+{"level":"info","message":"GET /api/dashboard/summary","timestamp":"2025-12-04T20:01:52.790Z"}
+{"level":"info","message":"GET /api/dashboard/summary","timestamp":"2025-12-04T20:01:54.645Z"}
