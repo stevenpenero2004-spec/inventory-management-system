@@ -1,7 +1,13 @@
 import axios from 'axios'
 
+const apiUrl =
+  import.meta.env.VITE_API_URL ||
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+    ? 'http://localhost:5000/api'
+    : '/api')
+
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: apiUrl,
 })
 
 client.interceptors.request.use((config) => {
@@ -22,4 +28,3 @@ client.interceptors.response.use(
 )
 
 export default client
-
