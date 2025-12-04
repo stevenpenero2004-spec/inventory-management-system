@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import client from '../api/client'
 
 export default function Register() {
@@ -29,7 +29,7 @@ export default function Register() {
       </div>
       {error && <div className="text-red-400 text-sm">{error}</div>}
       <button className="btn btn-primary w-full">Create Account</button>
-      <div className="text-sm text-gray-400">Already have an account? <a className="text-blue-400" href="/login">Sign in</a></div>
+      <div className="text-sm text-gray-400">Already have an account? <Link className="text-blue-400" to="/login">Sign in</Link></div>
     </form>
   )
 }

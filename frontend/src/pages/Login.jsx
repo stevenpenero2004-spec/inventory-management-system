@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import client from '../api/client'
 import { useAuth } from '../auth/AuthContext'
 
@@ -50,7 +50,7 @@ export default function Login() {
       </div>
       {error && <div className="text-red-400 text-sm">{error}</div>}
       <button className="btn btn-primary w-full">Sign In</button>
-      <div className="text-sm text-gray-400">No account? <a className="text-blue-400" href="/register">Register</a></div>
+      <div className="text-sm text-gray-400">No account? <Link className="text-blue-400" to="/register">Register</Link></div>
     </form>
   )
 }
