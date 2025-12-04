@@ -21,7 +21,7 @@ client.interceptors.response.use(
   (err) => {
     if (err.response && err.response.status === 401) {
       localStorage.removeItem('token')
-      if (location.pathname !== '/login') location.href = '/login'
+      location.href = '/#/login'
     }
     return Promise.reject(err)
   }
