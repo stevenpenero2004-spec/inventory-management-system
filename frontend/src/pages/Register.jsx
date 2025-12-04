@@ -41,7 +41,7 @@ export default function Register() {
             type="button"
             aria-label={show ? 'Hide password' : 'Show password'}
             title={show ? 'Hide password' : 'Show password'}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-200 p-2 rounded-full hover:bg-neutral-800 border border-neutral-700"
+            className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-200"
             onClick={()=>setShow(s=>!s)}
           >
             {show ? (
